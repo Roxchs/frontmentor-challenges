@@ -21,39 +21,35 @@ body {
 }
 
 .card {
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 0.8em;    
+    width: 18em;
+    padding: 1em;    
     border-radius: 1em;
-    background-color: hsl(0, 0%, 100%);    
-    width: 15em;
-    max-width: 100%; 
+    background-color: hsl(0, 0%, 100%);
 }
 
 .card-img {
     border-radius: 0.5em;
+    max-width: 100%;
 }
 
 .card-title {
     color: hsl(218, 44%, 22%);
-    padding: 0.3em;
+    padding: 0.3em 0.2em;
     margin: 0.7em 0 0 0;
-    font-size: 1.1em;
+    font-size: 1.35em;
 
 }
 
 .card-text {
-    font-size: 0.875em;
+    font-size: 0.938em;
     font-weight: 400;
-    padding: 0.5em;
+    padding: 0.5em 1em;
     margin: 0 0 1em 0;
     color: hsl(220, 15%, 55%);
 }
 
 .attribution {
-    font-size: 11px; 
+    font-size: 0.688px; 
     text-align: center; 
 }
 
