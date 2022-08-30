@@ -2,19 +2,22 @@
 
 * {
     font-family: 'Outfit', sans-serif;
+    margin: 0;
 }
 
 body {
+    min-height: 100vh;
     background-color: hsl(212, 45%, 89%);
-}
-
-.container {    
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: center;    
-    margin: 9em 0 6em;   
+    gap: 3em;
+}
+
+.container {    
+    text-align: center;
+    padding: 1em;     
 }
 
 .card {
@@ -26,7 +29,7 @@ body {
     border-radius: 1em;
     background-color: hsl(0, 0%, 100%);    
     width: 15em;
-    max-width: 70%; 
+    max-width: 100%; 
 }
 
 .card-img {
