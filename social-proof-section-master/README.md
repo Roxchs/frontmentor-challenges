@@ -19,8 +19,8 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [here](https://github.com/Roxchs/frontmentor-challenges/tree/main/social-proof-section-master)
+- Live Site URL: [here](https://roxchs.github.io/frontmentor-challenges/social-proof-section-master/index.html)
 
 ## My process
 

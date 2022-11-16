@@ -14,11 +14,13 @@ body {
     background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
     background-repeat: no-repeat, no-repeat;
     background-position: left top, right bottom;
-    background-size: 35% 43%, 73% 90%;
-    padding: 2em 8.3em 0;
+    background-size: 32% 33%, 72% 91%;
 }
 
 .container {
+    width: 90%;
+    max-width: 79em;
+    margin: 2em auto;
     display: flex;
     align-items: center;    
     justify-content: center;
@@ -143,6 +145,7 @@ body {
 .name {
     font-weight: 500;
     color: hsl(0, 0%, 100%);
+    line-height: 1.1;
 }
 
 .verified {
@@ -170,7 +173,10 @@ body {
     body {
         background-image: url(../images/bg-pattern-top-desktop.svg), none;
         background-size: 100% 22%;
-        padding: 8em 1.5em 0;
+    }
+
+    .container {
+        margin: 8em 1.5em;
     }
 
     .container .section-1 {
